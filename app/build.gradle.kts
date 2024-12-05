@@ -37,7 +37,10 @@ dependencies {
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
+    implementation(libs.lifecycle.process)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+    implementation ("androidx.lifecycle:lifecycle-runtime:2.6.1")
+    implementation ("androidx.lifecycle:lifecycle-extensions:2.2.0")
 }
